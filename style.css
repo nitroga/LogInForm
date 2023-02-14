@@ -1,0 +1,57 @@
+* {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 3vh;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 16vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  border-radius: 1.25vh;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.511);
+}
+
+button[type="submit"] {
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.511);
+}
